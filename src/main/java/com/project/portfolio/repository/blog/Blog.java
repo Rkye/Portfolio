@@ -22,9 +22,6 @@ public class Blog extends Base {
     @Column(name="detail")
     private String detail;
 
-    //@Column(name="created_date")
-    //private String created_date; //TODO baseden gelen cd var, yazılma tarihi mi olsa?
-
     @ManyToOne
     @JoinColumn(name = "skill_id")
     private Skill skill;

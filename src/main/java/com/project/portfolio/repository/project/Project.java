@@ -25,7 +25,7 @@ public class Project extends Base {
     private String detail;
 
     @Column(name="date")
-    private LocalDateTime date;//TODO Base sınıfında createdDate var bu date e gerek var mı?
+    private LocalDateTime projectDate;
 
     @ManyToOne
     @JoinColumn(name = "skill_id")
