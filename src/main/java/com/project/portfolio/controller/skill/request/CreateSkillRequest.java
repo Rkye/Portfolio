@@ -1,4 +1,4 @@
-package com.project.portfolio.controller.about.request;
+package com.project.portfolio.controller.skill.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
@@ -8,9 +8,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CreateAboutRequest {
+public class CreateSkillRequest {
 
     @NotBlank
-    private String detail;
+    private String name;
 
 }

@@ -23,11 +23,11 @@ public class Certificate extends Base {
     private String name;
 
     @Column(name="organisation_name")
-    private String organisation_name;
+    private String organisationName;
 
     @Column(name="given_date")
-    private LocalDate given_date;
+    private LocalDate givenDate;
 
     @Column(name="certificate_site_link")
-    private String certificate_site_link;
+    private String certificateSiteLink;
 }

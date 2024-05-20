@@ -1,4 +1,4 @@
-package com.project.portfolio.controller.about.request;
+package com.project.portfolio.controller.socialMedia.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -9,12 +9,12 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class UpdateAboutRequest {
+public class UpdateSocialMediaRequest {
 
     @NotNull
     private int id;
 
     @NotBlank
-    private String detail;
+    private String link;
 
 }

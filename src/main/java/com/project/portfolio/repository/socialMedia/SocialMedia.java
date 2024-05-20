@@ -24,6 +24,7 @@ public class SocialMedia extends Base {
     @Column(name="link")
     private String link;
 
-    @OneToMany(mappedBy = "social_media")
+    @OneToMany(mappedBy = "socialMedia")
     private List<Homepage> homepageList;
+
 }

@@ -20,7 +20,7 @@ import java.time.LocalDate;
 public class Experience extends Base {
 
     @Column(name="department_title")
-    private String department_title;
+    private String departmentTitle;
 
     @Column(name="workplace")
     private String workplace;
@@ -29,9 +29,9 @@ public class Experience extends Base {
     private String detail;
 
     @Column(name="start_date")
-    private LocalDate start_date;
+    private LocalDate startDate;
 
     @Column(name="end_date")
-    private LocalDate end_date;
+    private LocalDate endDate;
 
 }

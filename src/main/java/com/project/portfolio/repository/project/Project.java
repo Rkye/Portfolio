@@ -24,7 +24,7 @@ public class Project extends Base {
     @Column(name = "detail")
     private String detail;
 
-    @Column(name="date")
+    @Column(name="project_date")
     private LocalDateTime projectDate;
 
     @ManyToOne
@@ -32,8 +32,8 @@ public class Project extends Base {
     private Skill skill;
 
     @Column(name="live_site_link")
-    private String live_site_link;
+    private String liveSiteLink;
 
     @Column(name="github_link")
-    private String github_link;
+    private String githubLink;
 }

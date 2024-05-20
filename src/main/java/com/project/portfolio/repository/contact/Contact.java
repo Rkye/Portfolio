@@ -24,7 +24,7 @@ public class Contact extends Base {
     private String surname;
 
     @Column(name="mail_address")
-    private String mail_address;
+    private String mailAddress;
 
     @Column(name="message")
     private String message;

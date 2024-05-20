@@ -8,6 +8,8 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class AboutResponse {
+
     int id;
     String detail;
+
 }

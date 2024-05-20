@@ -21,6 +21,6 @@ public class Homepage extends Base {
 
     @ManyToOne
     @JoinColumn(name = "social_media_id")
-    private SocialMedia social_media;
+    private SocialMedia socialMedia;
 
 }

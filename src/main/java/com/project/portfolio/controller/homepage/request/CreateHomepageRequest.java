@@ -1,4 +1,4 @@
-package com.project.portfolio.controller.about.request;
+package com.project.portfolio.controller.homepage.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -9,12 +9,11 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class UpdateAboutRequest {
-
-    @NotNull
-    private int id;
+public class CreateHomepageRequest {
 
     @NotBlank
     private String detail;
 
+    @NotNull
+    private int socialMediaId;
 }
